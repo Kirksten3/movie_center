@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: movie_center_development
+  pool: 5
+  username: kirk
+  password: 5t3nn3tt
