@@ -2,13 +2,18 @@
 <html>
   <head>
     <title>MovieCenter</title>
+    <%= javascript_include_tag "jquery-1.11.3" %>
+    <%= stylesheet_link_tag "bootstrap" %>
+    <%= javascript_include_tag "bootstrap" %> 
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%# stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%# javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+    <div class='container'>
+      <%= yield %>
+    </div>
   </body>
 </html>
