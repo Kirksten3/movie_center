@@ -1,0 +1,10 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  background-image: url('/assets/bg.jpg')
+}
+
+#nav {
+  border-radius: 0px;
+}
