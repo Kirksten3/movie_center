@@ -1,0 +1,18 @@
+<div class='panel panel-default'>
+  <div class='panel-heading'>
+    <a class='btn btn-default back_button' href='<%= movie_list_path %>'>< Back</a>
+    <h4><%= @movie.title %></h4>
+  </div>
+  <div class='panel-body'>
+    <div class='col-md-3'>
+      <div class='movie_show'>
+        <img src='<%= @movie.image_path.to_s %>'>
+      </div>
+    </div>
+    <div class='col-md-9'>
+      <div><span>Plot: <%= @movie.plot %></span></div>
+      <div><span>Year: <%= @movie.year %></span></div>
+      <div><span>Watch: Locally | Chromecast</span></div>
+    </div>
+  </div>
+</div>

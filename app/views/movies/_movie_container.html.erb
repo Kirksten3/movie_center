@@ -1,0 +1,8 @@
+<a class='movie_link' href='<%= movie_path(locals[:movie].id) %>'>
+  <div class='movie_container'>
+      <img src='<%= locals[:movie].image_path %>'>
+    <div>
+      <span><%= locals[:movie].title %></span>
+    </div>
+  </div>
+</a>

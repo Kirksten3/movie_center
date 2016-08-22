@@ -8,13 +8,13 @@
         <span class="icon-bar"></span> 
       </button>
       
-      <a class="navbar-brand" href="#">Movie Center</a>
+      <a class="navbar-brand" href="<%= root_path %>">Movie Center</a>
     </div>
 
     <div class="collapse navbar-collapse" id="nav-collapse">
       <ul class="nav navbar-nav">
         <%# update with link_to %>
-        <li><a href="#">Movies</a></li>
+        <li><%= link_to "Movies", movie_list_path %></li>
         <li><a href="#">TV Shows</a></li>
       </ul>
     </div>

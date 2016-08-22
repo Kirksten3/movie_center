@@ -1,0 +1,8 @@
+<div class='panel panel-default'>
+  <div class='panel-heading'>All Movies</div>
+  <div class='panel-body'>
+    <% @movies.each do |m| %>
+      <%= render 'movie_container', locals: { movie: m } %>
+    <% end %>
+  </div>
+</div>
