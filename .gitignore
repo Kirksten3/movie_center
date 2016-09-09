@@ -17,4 +17,5 @@
 .byebug_history
 
 *.swp
-/public/posters/*
+public/posters/*
+!public/posters/noMovie.jpg
